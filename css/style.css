@@ -137,6 +137,21 @@ input:-webkit-autofill:focus {
 } */
 
 
+/* BUTTON */
+
+.btn {
+  width: 100%;
+  background-color:var(--green);
+  color:#fff;
+  border-radius: 0.32rem;
+  padding: 1rem 2.75rem;
+  font-weight: 600;
+  line-height: 1.625rem;
+  box-shadow: inset 0px -4px 0px 0px rgba(0, 0, 0, 0.09);
+  margin-bottom: 0.5rem;
+}
+
+
 
 /* MAIN-CONTENT */
 
