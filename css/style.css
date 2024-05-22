@@ -75,6 +75,8 @@ html {
 body {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   height: 100%;
   color: #fff;
   background-color: var(--red);
@@ -82,7 +84,7 @@ body {
   line-height: 1.5;
   background-image: url("../img/bg-intro-mobile.png");
   background-repeat: no-repeat;
-  background-size: cover ;
+  background-size: cover;
 }
 
 img {
