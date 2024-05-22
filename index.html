@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Project</title>
+  <title>Sign-Up Form</title>
 
   <!-- STYLESHEETS -->
   <link rel="stylesheet" href="./css/normalize.css">
@@ -17,7 +17,34 @@
       <h1 class="learn__heading">Learn to code by watching others</h1>
       <p class="learn__description">See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable. </p>
     </div>
+
+
+    <div class="form">
+      <div class="form__price"><span class="form__price--bold">Try it free 7 days</span> then $20/mo. thereafter</div>
+
+      <form class="form__section">
+        <div class="form__group">
+          <label for="username" class="form__label"></label>
+          <input type="text" class="form__input" name="username" id="username"  placeholder="Firts Name">
+        </div>
+        <div class="form__group">
+          <label for="lastname" class="form__label"></label>
+          <input type="text" class="form__input" name="lastname" id="lastname"  placeholder="Last Name">
+        </div>
+        <div class="form__group">
+          <label for="email" class="form__label"></label>
+          <input type="email" class="form__input" name="email" id="email"  placeholder="Email">
+        </div>
+        <div class="form__group">
+          <label for="password" class="form__label"></label>
+          <input type="password" class="form__input" name="password" id="password"  placeholder="Password">
+        </div>
+        <button class="btn">Claim your free trial</button>
+        <p class="form__description">By clicking the button, you are agreeing to our <span class="form__description--colored">Terms and Services</span></p>
+      </form>
+    </div>
   </main>
+
   <script src="/js/index.js"></script>
 </body>
 </html>
