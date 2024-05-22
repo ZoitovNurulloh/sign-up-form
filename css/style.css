@@ -140,6 +140,27 @@ input:-webkit-autofill:focus {
 
 .main-content {
   flex-grow: 1;
+
+
+/* LEARN */
+
+.learn {
+  margin-bottom: 4rem;
+}
+
+.learn__heading {
+  font-size: 1.75rem;
+  line-height: 2.25rem;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+.learn__description {
+  line-height: 1.625rem;
+  font-weight: 500;
+}
+
+
 }
 
 
