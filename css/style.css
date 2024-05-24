@@ -254,3 +254,16 @@ only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) {
 
 }
+
+
+@media only screen and (min-width:768px) {
+  .learn {
+    width: 100%;
+    max-width: 525px;
+  }
+
+  .form {
+    width: 100%;
+    max-width: 540px;
+  }
+}
