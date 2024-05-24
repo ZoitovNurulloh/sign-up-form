@@ -93,6 +93,10 @@ img {
   height: auto;
 }
 
+*:focus {
+  outline: 2px solid var(--red);
+}
+
 /* CONTAINER */
 
 .container {
