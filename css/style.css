@@ -290,6 +290,11 @@ only screen and (                min-resolution: 2dppx) {
 
 
 @media only screen and (min-width:768px) {
+  body {
+  background-image: url("../img/bg-intro-desktop.png");
+  }
+
+
   .learn {
     width: 100%;
     max-width: 525px;
