@@ -161,7 +161,6 @@ input:-webkit-autofill:focus {
 /* MAIN-CONTENT */
 
 .main-content {
-  flex-grow: 1;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -303,5 +302,35 @@ only screen and (                min-resolution: 2dppx) {
   .form {
     width: 100%;
     max-width: 540px;
+  }
+}
+
+@media only screen and (min-width:1100px) {
+  .main-content {
+    width: 100%;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  .learn__heading {
+    font-size: 3.125rem;
+    line-height: 3.5rem;
+    letter-spacing: 0.52px;
+  }
+
+  .form__description {
+    line-height: 1.625rem;
+  }
+}
+
+
+
+
+@media only screen and (min-width:1300px) {
+  .main-content {
+    padding-right: 8rem;
+    padding-left: 8rem;
   }
 }
