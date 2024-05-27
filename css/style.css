@@ -94,7 +94,8 @@ img {
 }
 
 *:focus {
-  outline: 2px solid var(--red);
+  outline: 2px solid var(--green);
+  outline-offset: 2px;
 }
 
 /* CONTAINER */
